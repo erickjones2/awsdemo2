@@ -15,7 +15,7 @@ spec:
       containers:
       - name: springbootdemo
         imagePullPolicy: Always
-        image: 898334718399.dkr.ecr.us-east-1.amazonaws.com/springboot-test-eks:${{FD_PROJECT_VERSION}}
+        image: 898334718399.dkr.ecr.us-east-1.amazonaws.com/springboot-test-eks2:${{FD_PROJECT_VERSION}}
         ports:
         - containerPort: 8080
         envFrom:
